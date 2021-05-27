@@ -1,0 +1,72 @@
+body{
+    background-color: #008080;
+   
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 46px;
+    margin-left: 8%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+.child
+{
+    margin: 3%;
+
+    
+    text-align: center;
+padding: 1%;
+}
+img {
+    border-radius: 7%;
+}
+
+.child:hover{
+    background-color: greenyellow;
+
+}
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+
+
+.parent{
+    display: inline-block;
+    width: 20%;
+}
+
+
+
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+font-weight: bolder;
+margin-top: 10px;
+
+
+}
+.bottom
+{
+    margin-top:30px ;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+hr{
+    
+    background-color: green;
+}
+
+
+.last
+{
+    margin-top: 30px;
+}
+a{
+text-decoration:none;
+margin-top:20px;
+}
+
